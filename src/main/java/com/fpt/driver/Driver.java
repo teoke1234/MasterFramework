@@ -1,13 +1,10 @@
 package com.fpt.driver;
 
-import com.fpt.config.ConfigFactory;
-import com.fpt.enums.BrowserType;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Driver {
+public final class Driver {
+
+    private Driver(){}
 
 
 
@@ -19,6 +16,9 @@ public class Driver {
     }
 
     public static void quitDriver() {
+        /*
+
+         */
 
     }
 }
