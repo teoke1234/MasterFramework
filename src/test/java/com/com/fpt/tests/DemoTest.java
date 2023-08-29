@@ -15,9 +15,6 @@ public class DemoTest {
     public void testLogin(){
         System.out.println(ConfigFactory.getConfig().browser());
 
-//        WebDriverManager.chromedriver().setup();
-//        WebDriver driver = new ChromeDriver();
-//        driver.get("https://google.com.vn");
-//        driver.quit();
+//
     }
 }
